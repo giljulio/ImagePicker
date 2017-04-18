@@ -1,12 +1,12 @@
-#DEPRECATED
+# DEPRECATED
 android-multiple-image-picker is deprecated. No more development will be taking place. Most file managers and gallaries now support ```Intent.EXTRA_ALLOW_MULTIPLE``` Thanks for all your support!
 
-#Mutiple Image Picker
+# Mutiple Image Picker
 
 Recently I got frustrated opening an intent to select multiple photos and also with a camera. Therefore I to make it myself and so other people don't have to reinvent the wheel here it is.
 
 
-##Usage
+## Usage
 
 ```java
 private static final RESULT_CODE_PICKER_IMAGES = 9000;
@@ -38,6 +38,6 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
-##Result
+## Result
 
 <img src="https://raw.githubusercontent.com/giljulio/ImagePicker/master/example/src/main/res/drawable/screenshot1.png" width="200px" style="margin: 5px;" /><img src="https://raw.githubusercontent.com/giljulio/ImagePicker/master/example/src/main/res/drawable/screenshot2.png" width="200px" style="margin: 5px;" /><img src="https://raw.githubusercontent.com/giljulio/ImagePicker/master/example/src/main/res/drawable/screenshot3.png" width="200px" style="margin: 5px;" />
